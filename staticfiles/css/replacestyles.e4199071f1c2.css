@@ -1,0 +1,40 @@
+.jado{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bg-primary {
+    background-color: #4AC948!important;
+}
+
+.icon-contact {
+    background-color: #4AC948!important;
+}
+
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    background-color: #4AC948!important;
+}
+
+
+a {
+    color: #4AC948;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+/*css of the toogle button*/
+
+.portfolio-item-caption {
+    background-color: #4AC948!important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #ffffff;
+}
