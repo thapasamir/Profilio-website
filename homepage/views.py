@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 from django.views import View
 from .models import AddProf,about
 
@@ -8,3 +8,6 @@ class HomePage(View):
 		add = AddProf.objects.all()
 		About = about.objects.all()
 		return render(request,'index.html',{'addprof':add,'about':About})
+
+def soon(request):
+	return HttpResponse("<h1>Comming soon....</h1")
